@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Daterange from "./components/Daterange";
+import Carousel from "./components/Carousel";
+
 
 class App extends Component {
     render() {
         return ( < h2 > Welcome to React 
-                        <Daterange/>                        </h2>
+        <Carousel/>
+                <Daterange/>                  </h2>
 
             );
         }

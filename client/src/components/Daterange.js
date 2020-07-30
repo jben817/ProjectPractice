@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-dates/initialize';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-dates/lib/css/_datepicker.css';
 import { DateRangePicker} from 'react-dates';
 
@@ -25,9 +25,9 @@ class Daterange extends Component {
             focusedInput = { this.state.focusedInput }
             onFocusChange = { focusedInput => this.setState({ focusedInput }) }
             />
-            <br></br>
+            {/* <br></br>
             <button onClick={this.alertStartDate}>Checkin</button>
-            <button onClick={this.alertEndDate}>Checkout</button>
+            <button onClick={this.alertEndDate}>Checkout</button> */}
 
         </div>
         
