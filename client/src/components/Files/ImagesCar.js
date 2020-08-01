@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ImagesCar ({scr}) {
+function ImagesCar ({src}) {
     let imgStyle = {
         width:100+"%",
         height:"auto"
     }
-    return <img scr={scr} alt="slide-img" style={imgStyle}></img>
+    return <img src={src} alt="slide-img" style={imgStyle}></img>
 
 }
 

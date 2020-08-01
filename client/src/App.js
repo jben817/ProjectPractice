@@ -1,14 +1,20 @@
 import React, { Component } from "react";
 import "./App.css";
-import Daterange from "./components/Daterange";
-import Carousel from "./components/Carousel";
+import Daterange from "./components/Files/Daterange";
+import Carousel from "./components/Files/Carousel";
+import Searchbar from "./components/Files/Searchbar";
 
 
 class App extends Component {
     render() {
         return ( < h2 > Welcome to React 
+        <Searchbar/> 
+        <Daterange/>   
+
         <Carousel/>
-                <Daterange/>                  </h2>
+            
+                </h2>
+
 
             );
         }
