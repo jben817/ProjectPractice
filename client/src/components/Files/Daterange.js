@@ -25,9 +25,7 @@ class Daterange extends Component {
             focusedInput = { this.state.focusedInput }
             onFocusChange = { focusedInput => this.setState({ focusedInput }) }
             />
-            {/* <br></br>
-            <button onClick={this.alertStartDate}>Checkin</button>
-            <button onClick={this.alertEndDate}>Checkout</button> */}
+            
 
         </div>
         
